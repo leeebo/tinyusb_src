@@ -1,5 +1,9 @@
 ## TinyUSB Core Code for ESP32Sx/Px
 
+> **Project status: archive transition**
+>
+> This repository is entering archive phase. No new features or routine updates are planned. For new ESP-IDF USB device projects, use Espressif's maintained [`esp_tinyusb`](https://components.espressif.com/components/espressif/esp_tinyusb) component, which integrates TinyUSB with ESP-IDF. Install it with `idf.py add-dependency "espressif/esp_tinyusb"`. This repository remains available for existing projects, but ongoing maintenance and support are not guaranteed.
+
 [![Push component to https://components.espressif.com](https://github.com/leeebo/tinyusb_src/actions/workflows/sync_esp_pkgmng.yml/badge.svg?branch=master)](https://github.com/leeebo/tinyusb_src/actions/workflows/sync_esp_pkgmng.yml)
 
 The Core code of TinyUSB as ESP-IDF component, users can use the TinyUSB native API for project development based on ESP32Sx/Px.
